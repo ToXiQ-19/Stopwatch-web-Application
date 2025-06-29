@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 50px;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#display {
+  font-size: 3em;
+  margin: 20px 0;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#startBtn { background-color: #4CAF50; color: white; }
+#pauseBtn { background-color: #f0ad4e; color: white; }
+#resetBtn { background-color: #d9534f; color: white; }
+#lapBtn   { background-color: #0275d8; color: white; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+ul li {
+  background: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
